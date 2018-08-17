@@ -139,9 +139,9 @@ Attributes description：
 
 | attr        | description  |
 | ------------- |:-------------:|
-| loadingColor      | 旋转圆弧的颜色 |
-| duration      | 动画时间 |
-| interpolator | 动画加速器 |
+| loadingColor      | the color of the rotating arcs |
+| duration      | the animation duration |
+| interpolator | the animation interpolator |
 
 ### interpolator: <br>
 * AccelerateDecelerateInterpolator
