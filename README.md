@@ -57,6 +57,7 @@ dependencies {
    
   whirlLoadingView.start(); //开始动画
   whirlLoadingView.stop(); //停止动画
+  whirlLoadingView.release(); //不需要使用该loading view的时候可手动释放，例如在activity的ondestroy()中
   
   whirlLoadingView.setColor(Color.RED); //圆弧颜色
 ```
@@ -127,6 +128,7 @@ in java code：
    
   whirlLoadingView.start(); //start animation
   whirlLoadingView.stop(); //stop animation
+  whirlLoadingView.release(); //Can 'released' when you don't need to use the loading view, for example in the activity's onDestroy()
   
   whirlLoadingView.setColor(Color.RED); //set the color of the arcs
 ```
